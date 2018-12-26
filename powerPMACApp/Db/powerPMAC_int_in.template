@@ -4,5 +4,4 @@ record(ai, "$(P)$(R)") {
   field(DESC, "$(DESC=)")
   field(EGU,  "$(EGU=)")
   field(PREC, "0")
-  field(DESC, "$(DESC=)")
-  }
+}

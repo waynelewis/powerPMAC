@@ -4,5 +4,4 @@ record(ao, "$(P)$(R)") {
   field(DESC, "$(DESC=)")
   field(PREC, "0")
   field(EGU,  "$(EGU=)")
-  field(DESC, "$(DESC=)")
 }
