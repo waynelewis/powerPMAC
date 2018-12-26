@@ -1,13 +1,13 @@
 # PowerPMAC generic protocol file
 
-InTerminator = ACK;
+InTerminator = CR LF;
 OutTerminator = CR;
 ExtraInput = Ignore;
 
 getIntVar
 {
   out "\$1";
-  in "\$1=%d";
+  in "LF\$1=%d";
 }
 
 setIntVar
