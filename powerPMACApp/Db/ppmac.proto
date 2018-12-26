@@ -7,7 +7,7 @@ ExtraInput = Ignore;
 getIntVar
 {
   out "\$1";
-  in "%d";
+  in "\$1=%d";
 }
 
 setIntVar
