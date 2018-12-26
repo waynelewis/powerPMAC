@@ -1,0 +1,17 @@
+# PowerPMAC generic protocol file
+
+InTerminator = ACK;
+OutTerminator = CR;
+ExtraInput = Ignore;
+
+getIntVar
+{
+  out "\$1";
+  in "%d";
+}
+
+setIntVar
+{
+  out "\$1=%d";
+  in;
+}
