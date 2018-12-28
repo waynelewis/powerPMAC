@@ -1,4 +1,4 @@
-record(ao, "$(P)$(R)") {
+record(bo, "$(P)$(R)") {
   field(DTYP, "stream")
   field(OUT, "@ppmac.proto setIntVar($(VAR)) $(PORT)")
   field(DESC, "$(DESC=)")
