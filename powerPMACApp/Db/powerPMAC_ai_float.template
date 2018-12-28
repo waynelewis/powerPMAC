@@ -1,0 +1,8 @@
+record(ai, "$(P)$(R)") {
+  field(DTYP, "stream")
+  field(INP, "@ppmac.proto getFloatVar($(VAR)) $(PORT)")
+  field(DESC, "$(DESC=)")
+  field(EGU,  "$(EGU=)")
+  field(PREC, "$(PREC=1)")
+  field(SCAN, "$(SCAN=2 second)")
+}

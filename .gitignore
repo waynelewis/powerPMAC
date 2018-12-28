@@ -2,8 +2,8 @@ bin/
 configure/O.*
 configure/RELEASE.original
 data/
-db/
-dbd/
+/db/
+/dbd/
 iocBoot/iocpowerPMAC/envPaths
 iocBoot/iocpowerPMAC/st.cmd.*
 lib/
