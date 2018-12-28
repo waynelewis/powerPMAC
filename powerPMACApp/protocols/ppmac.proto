@@ -15,6 +15,7 @@ setIntVar
   InTerminator = LF;
   out "\$1=%d";
   in;
+  @init { getIntVar; }
 }
 
 getFloatVar
@@ -28,4 +29,5 @@ setFloatVar
   InTerminator = LF;
   out "\$1=%f";
   in;
+  @init { getFloatVar; }
 }
