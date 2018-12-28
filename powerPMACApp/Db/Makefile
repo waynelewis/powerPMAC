@@ -12,8 +12,12 @@ include $(TOP)/configure/CONFIG
 # databases, templates, substitutions like this
 DB += powerPMAC_motor.template
 DB += powerPMAC_controller.template
-DB += powerPMAC_int_out.template
-DB += powerPMAC_int_in.template
+DB += powerPMAC_ai_int.template
+DB += powerPMAC_ai_float.template
+DB += powerPMAC_ao_int.template
+DB += powerPMAC_ao_float.template
+DB += powerPMAC_bi.template
+DB += powerPMAC_bo.template
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add
