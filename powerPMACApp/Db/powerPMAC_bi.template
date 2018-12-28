@@ -2,7 +2,7 @@ record(bi, "$(P)$(R)") {
   field(DTYP, "stream")
   field(INP, "@ppmac.proto getIntVar($(VAR)) $(PORT)")
   field(DESC, "$(DESC=)")
-  field(ZNAM, "$(ZNAM=Zero)"
-  field(ONAM, "$(ONAM=One)"
+  field(ZNAM, "$(ZNAM=Zero)")
+  field(ONAM, "$(ONAM=One)")
   field(SCAN, "$(SCAN=2 second)")
 }
