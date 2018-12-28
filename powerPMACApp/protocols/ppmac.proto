@@ -13,7 +13,6 @@ getIntVar
 setIntVar
 {
   out "\$1=%d";
-  in "\n";
   @init { getIntVar; }
 }
 
@@ -26,6 +25,5 @@ getFloatVar
 setFloatVar
 {
   out "\$1=%f";
-  in "\n";
   @init { getFloatVar; }
 }
