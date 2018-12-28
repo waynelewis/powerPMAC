@@ -12,8 +12,9 @@ getIntVar
 
 setIntVar
 {
+  InTerminator = LF;
   out "\$1=%d";
-  in "\n";
+  in;
 }
 
 getFloatVar
@@ -24,6 +25,7 @@ getFloatVar
 
 setFloatVar
 {
+  InTerminator = LF;
   out "\$1=%f";
-  in "\n";
+  in;
 }
