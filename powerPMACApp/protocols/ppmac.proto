@@ -12,9 +12,8 @@ getIntVar
 
 setIntVar
 {
-  InTerminator = LF;
   out "\$1=%d";
-  in;
+  in "\n";
   @init { getIntVar; }
 }
 
