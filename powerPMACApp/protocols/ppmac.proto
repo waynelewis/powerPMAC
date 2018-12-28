@@ -13,5 +13,17 @@ getIntVar
 setIntVar
 {
   out "\$1=%d";
-  in;
+  in "\n";
+}
+
+getFloatVar
+{
+  out "\$1";
+  in "\n\$1=%f";
+}
+
+setFloatVar
+{
+  out "\$1=%f";
+  in "\n";
 }
